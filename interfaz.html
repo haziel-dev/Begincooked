@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="array_pedidos.css">
+</head>
+<body>
+
+    <div id="lista_pedidos" class="contenedor">
+    </div>
+
+    <div class="container">
+
+        <div class="count">
+            <h3 class="count_title">Numero de ordenes:</h3>
+            <h4 id="ordenes" class="ordenes">0
+            </h4>
+        </div>
+
+        <div id="menu" class="menu">
+        </div>
+        
+        <div class="indication_key">
+            <h1 class="keys_icon_title">Press:</h1>
+            <div class="keys_icon">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000"><path d="M320-440v-287L217-624l-57-56 200-200 200 200-57 56-103-103v287h-80ZM600-80 400-280l57-56 103 103v-287h80v287l103-103 57 56L600-80Z"/></svg></div>
+        </div>
+    </div>
+
+    <button id="delate" class="delate">Entregar orden</button>
+    <span id="mensaje"></span>
+    
+    <audio id="audio"></audio>
+    <script src="agregar_arreglo.js"></script>
+</body>
+</html>
