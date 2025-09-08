@@ -66,12 +66,12 @@ const intervalo = setInterval(function(){
 
 
     //condicional del limite de ordenes acumuladas
-    if(arreglo_comidas.length >= 10000){
+    if(arreglo_comidas.length >= 10){
         ordenes.textContent = "PERDISTE";
         clearInterval(intervalo);
         return
     }
-}, 1000)//tiempo en que se agrega una nueva orden
+}, 750)//tiempo en que se agrega una nueva orden
 
 
 //se usa un for para agregar las comidas existentes al menu

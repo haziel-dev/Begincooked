@@ -177,3 +177,18 @@ body::before {
     background-color: #fb0;
 }
 
+.instruccion_entregar{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    top: 39%;
+    right: 6%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0.2rem solid #000;
+    background-color: #fffa;
+}
